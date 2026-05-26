@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "id": "workplace_general",
+      "label": "Workplace",
+      "description": "Boundary pressure in ordinary professional settings: workload, availability, unpaid labor, role ambiguity, and career anxiety."
+    },
+    {
+      "id": "adult_entertainment_workplace",
+      "label": "Adult Entertainment Workplaces",
+      "description": "Workplace pressure in nightlife or adult-entertainment settings: customer entitlement, tip leverage, manager pressure, appearance labor, VIP ambiguity, safety boundaries, and economic coercion."
+    },
+    {
+      "id": "nightlife",
+      "label": "Nightlife",
+      "description": "Boundary pressure in bars, clubs, parties, lounges, after-hours events, and social scenes where alcohol, status, flirtation, group belonging, and late-night momentum can blur judgment. Common dynamics include social pressure to keep the vibe going, pressure to stay out longer, pressure to drink more, pressure to be fun or available, VIP access ambiguity, status signaling, and difficulty leaving without seeming rude, boring, dramatic, or disloyal."
+
+    },
+    {
+      "id": "tech_workplace",
+      "label": "Tech Environments",
+      "description": "Pressure patterns common in tech: startup urgency, on-call heroics, scope creep, impact/status pressure, performance review leverage, and 'team player' framing."
+    },
+    {
+      "id": "family_drama",
+      "label": "Family Drama",
+      "description": "Boundary pressure involving family roles, guilt, obligation, tradition, gratitude debt, loyalty tests, and belonging."
+    },
+    {
+      "id": "friendships",
+      "label": "Friendships",
+      "description": "Pressure between friends: emotional availability, rescue expectations, disappointment, guilt, money requests, and fear of seeming uncaring."
+    },
+    {
+      "id": "romantic_sexual_relationships",
+      "label": "Romantic / Sexual Relationships",
+      "description": "Boundary pressure around closeness, desire, pacing, proof of love, rejection anxiety, emotional reassurance, and access."
+    },
+    {
+      "id": "money_lending",
+      "label": "Money / Lending",
+      "description": "Pressure around borrowing, repayment, emergencies, guilt, repeated requests, and financial rescue roles."
+    },
+    {
+      "id": "community_status",
+      "label": "Community / Status",
+      "description": "Pressure involving reputation, status, group belonging, moral image, public expectations, and social consequences."
+    }
+  ]
+}

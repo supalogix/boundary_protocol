@@ -1,0 +1,104 @@
+{
+  "values": {
+    "care": {
+      "label": "Care",
+      "distinctions": ["care_not_compliance"],
+      "corruptedForms": ["compliance"]
+    },
+    "forgiveness": {
+      "label": "Forgiveness",
+      "distinctions": ["forgiveness_not_permission"],
+      "corruptedForms": ["permission"]
+    }
+  },
+  "distinctions": {
+    "care_not_compliance": {
+      "label": "care is not compliance",
+      "preservedBy": ["voluntariness_remains_possible"]
+    },
+    "forgiveness_not_permission": {
+      "label": "forgiveness is not permission",
+      "preservedBy": ["accountability_remains_possible"]
+    }
+  },
+  "conditions": {
+    "voluntariness_remains_possible": {
+      "label": "voluntariness remains possible"
+    },
+    "accountability_remains_possible": {
+      "label": "accountability remains possible"
+    }
+  },
+  "pressures": {
+    "guilt": {
+      "label": "Guilt",
+      "function": "Frames refusal as moral failure, lack of care, disloyalty, or betrayal.",
+      "threatens": ["voluntariness_remains_possible"]
+    },
+    "urgency": {
+      "label": "Urgency",
+      "function": "Compresses decision time so pausing, reflecting, or refusing feels unavailable.",
+      "threatens": ["voluntariness_remains_possible"]
+    },
+    "flattery": {
+      "label": "Flattery",
+      "function": "Uses praise, admiration, or special-status language to make compliance feel like fulfilling a valued identity.",
+      "threatens": ["voluntariness_remains_possible"]
+    },
+    "minimization": {
+      "label": "Minimization",
+      "function": "Reduces the significance of a pattern, harm, or concern to avoid accountability.",
+      "threatens": ["accountability_remains_possible"]
+    }
+  },
+  "boundaries": {
+    "do_not_help_under_emotional_coercion": {
+      "label": "I do not help under emotional coercion.",
+      "protects": ["voluntariness_remains_possible"]
+    },
+    "do_not_help_under_time_coercion": {
+      "label": "I do not help under time coercion.",
+      "protects": ["voluntariness_remains_possible"]
+    },
+    "do_not_erase_the_pattern": {
+      "label": "I do not use forgiveness to erase patterns.",
+      "protects": ["accountability_remains_possible"]
+    }
+  },
+  "protocols": {
+    "pause_help_protocol": {
+      "label": "Pause / Help Protocol",
+      "protects": ["voluntariness_remains_possible"],
+      "handlesPressures": ["guilt", "urgency", "flattery"],
+      "scripts": {
+        "first": "I care about you, but I need time before I answer.",
+        "repeat": "I have answered that. I am not going to keep debating it.",
+        "exit": "I am going to pause this conversation now."
+      }
+    },
+    "accountability_protocol": {
+      "label": "Accountability Protocol",
+      "protects": ["accountability_remains_possible"],
+      "handlesPressures": ["minimization"],
+      "scripts": {
+        "first": "I forgive you, but this still needs to change.",
+        "repeat": "I am not punishing you. I am naming the pattern.",
+        "exit": "If we cannot discuss the change, I am going to pause this conversation."
+      }
+    }
+  },
+  "tests": {
+    "can_say_no_and_still_care": {
+      "label": "Can I say no and still care?",
+      "reveals": ["voluntariness_remains_possible"]
+    },
+    "can_pause_before_answering": {
+      "label": "Can I pause before answering?",
+      "reveals": ["voluntariness_remains_possible"]
+    },
+    "can_forgive_and_still_require_change": {
+      "label": "Can I forgive and still require change?",
+      "reveals": ["accountability_remains_possible"]
+    }
+  }
+}

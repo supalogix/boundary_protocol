@@ -1,0 +1,1644 @@
+[
+  {
+    "id": "community_lifestyle_status_partner_social_proof_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You and your spouse are invited to a private lifestyle-adjacent social event where founders, investors, and influential couples will be present. Your spouse is being encouraged to attend because their presence would raise your social standing in the group.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "People are excited to meet you both. Honestly, showing up together would say a lot about where you belong in the circle.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because social belonging and couple-status are used to make attendance feel like an identity upgrade.",
+    "evidenceSpan": "where you belong in the circle",
+    "warrant": "The speaker uses status and inclusion to make participation feel like proof of social rank."
+  },
+  {
+    "id": "community_lifestyle_guilt_partner_blocking_access_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A spouse is uncomfortable attending a private lifestyle-adjacent event connected to business networking. Their partner frames that discomfort as blocking both of them from social and professional access.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You know how important this network is for us. If you refuse to come, you are making me walk in there alone and lose face.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because one partner’s boundary is framed as harming the other partner’s status and social access.",
+    "evidenceSpan": "making me walk in there alone and lose face",
+    "warrant": "The speaker turns refusal into social injury and makes the listener responsible for preserving status."
+  },
+  {
+    "id": "community_lifestyle_flattery_power_couple_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A socially connected couple invites you and your partner into a private circle where business deals and lifestyle-scene status overlap.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You two have the kind of energy people notice. You would fit perfectly with the more interesting couples in the room.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because the couple’s identity and desirability are used to make participation feel prestigious.",
+    "evidenceSpan": "the kind of energy people notice",
+    "warrant": "The speaker uses admiration and social desirability to pull the couple toward participation."
+  },
+  {
+    "id": "community_lifestyle_urgency_private_guest_list_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A private lifestyle-adjacent gathering has a limited guest list. You ask for time to talk with your partner, but the organizer pressures you to decide immediately.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "I need both names tonight. If you wait, the spots go to another couple.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because limited access and scarcity are used to force a fast decision.",
+    "evidenceSpan": "I need both names tonight",
+    "warrant": "The speaker compresses the decision window and makes pausing feel like losing status access."
+  },
+  {
+    "id": "community_lifestyle_guilt_not_supporting_spouse_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A spouse is being encouraged to attend a private social event because it may help their partner’s professional standing. They are hesitant, and their partner frames hesitation as lack of support.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "I am not asking you to do anything crazy. I just need you to support me and not make this harder.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because the boundary is reframed as failing to support the relationship or partner.",
+    "evidenceSpan": "I just need you to support me",
+    "warrant": "The speaker makes compliance feel like the proof of being a supportive spouse."
+  },
+  {
+    "id": "community_lifestyle_minimization_just_social_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You ask for clearer boundaries before attending a lifestyle-adjacent gathering where professional access and intimate social dynamics overlap. The organizer downplays the need for clarity.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "You are overthinking it. It is just a social thing, not some big boundary conversation.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the speaker downplays the need for explicit boundaries and accountability.",
+    "evidenceSpan": "just a social thing",
+    "warrant": "The speaker reduces the seriousness of the boundary concern so that asking for clarity seems excessive."
+  },
+  {
+    "id": "community_lifestyle_flattery_discreet_spouse_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A host suggests that your spouse was invited because they are trusted to understand the private norms of an elite lifestyle-adjacent circle.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Your wife has the kind of presence and discretion people trust. That is rare in this circle.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because praise about presence and discretion is used to make participation feel like recognition.",
+    "evidenceSpan": "presence and discretion people trust",
+    "warrant": "The speaker uses admiration to make social participation feel like an earned status role."
+  },
+  {
+    "id": "community_lifestyle_guilt_couple_reputation_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You and your spouse decline a private event invitation. A socially connected person implies that refusal will affect how others perceive you as a couple.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "People notice which couples are open to the community and which ones keep themselves separate.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because social belonging is used to make refusal feel like exclusion or status loss.",
+    "evidenceSpan": "which ones keep themselves separate",
+    "warrant": "The speaker implies that maintaining a boundary will damage the couple’s reputation or belonging."
+  },
+  {
+    "id": "community_lifestyle_flattery_versailles_couple_001",
+    "mode": "identify_pressure_pattern",
+    "context": "In an elite social circle where business introductions happen through private parties, a host suggests that your couple’s visibility could improve your position.",
+    "scenarioCategories": [
+      "community_status",
+      "tech_workplace",
+      "romantic_sexual_relationships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "This is how people rise in the circle. The right couple being seen in the right room changes everything.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because visibility and couple-status are framed as a path to social elevation.",
+    "evidenceSpan": "The right couple being seen in the right room",
+    "warrant": "The speaker uses prestige and court-like social positioning to make participation feel like advancement."
+  },
+  {
+    "id": "community_lifestyle_minimization_boundaries_are_dramatic_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You want to discuss expectations before attending a private lifestyle-adjacent event with your spouse. Someone dismisses the need for that conversation.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "You are making this way too formal. Normal people do not need a contract just to go to a party.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the speaker downplays the need for explicit expectations and makes boundary clarity seem excessive.",
+    "evidenceSpan": "way too formal",
+    "warrant": "The speaker reduces a legitimate boundary conversation into unnecessary drama."
+  },
+  {
+    "id": "community_lifestyle_urgency_host_waiting_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are trying to talk privately with your spouse before agreeing to attend a private lifestyle-adjacent event. The host pressures you to decide before you have that conversation.",
+    "scenarioCategories": [
+      "community_status",
+      "romantic_sexual_relationships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "The host is waiting for your answer now. If you two need a whole private discussion first, we should just invite someone easier.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the need to decide quickly is used to bypass private agreement and boundary clarity.",
+    "evidenceSpan": "waiting for your answer now",
+    "warrant": "The speaker compresses decision time and frames discussion as inconvenient."
+  },
+  {
+    "id": "care_guilt_if_you_cared",
+    "mode": "identify_pressure_pattern",
+    "context": "You told a friend you cannot make time for their request. They respond by questioning whether your refusal means you do not care.",
+    "scenarioCategories": [
+      "friendships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "If you really cared, you would make time for this.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because it makes care conditional on compliance.",
+    "evidenceSpan": "If you really cared",
+    "warrant": "The speaker frames refusal as evidence that the listener does not care."
+  },
+  {
+    "id": "care_guilt_i_guess_i_know",
+    "mode": "identify_pressure_pattern",
+    "context": "You declined to help a friend with something you do not have capacity for. They respond with disappointment about whether you show up for them.",
+    "scenarioCategories": [
+      "friendships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "I guess I know who actually shows up for me now.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because it turns a refusal into evidence of disloyalty or lack of care.",
+    "evidenceSpan": "who actually shows up for me",
+    "warrant": "The speaker implies that saying no reveals moral failure or relational failure."
+  },
+  {
+    "id": "care_guilt_no_one_else",
+    "mode": "identify_pressure_pattern",
+    "context": "A friend asks you for help and presents you as their only possible option. You are unsure whether you can help.",
+    "scenarioCategories": [
+      "friendships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You’re the only person I can ask. If you say no, I’m completely stuck.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because it places the listener alone inside a moral emergency.",
+    "evidenceSpan": "You’re the only person I can ask",
+    "warrant": "The speaker makes refusal feel like abandoning them with no alternatives."
+  },
+  {
+    "id": "care_urgency_tonight_only",
+    "mode": "identify_pressure_pattern",
+    "context": "A friend wants your help tonight and rejects the idea that you should take time to think before answering.",
+    "scenarioCategories": [
+      "friendships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "This has to happen tonight. I can’t wait for you to think about it.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because it removes time for reflection and pushes for an immediate answer.",
+    "evidenceSpan": "I can’t wait for you to think about it",
+    "warrant": "The speaker treats pausing or reflecting as unavailable."
+  },
+  {
+    "id": "care_urgency_last_chance",
+    "mode": "identify_pressure_pattern",
+    "context": "Someone asks you for financial help and frames the situation as a final opportunity that requires an answer before the day ends.",
+    "scenarioCategories": [
+      "money_lending"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "This is my last chance. I need your answer before the end of the day.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because it compresses the decision window and makes delay feel impossible.",
+    "evidenceSpan": "before the end of the day",
+    "warrant": "The speaker imposes a deadline that pressures the listener to decide quickly."
+  },
+  {
+    "id": "care_urgency_no_pressure_but",
+    "mode": "identify_pressure_pattern",
+    "context": "Someone asks you for a quick decision about lending money. They claim there is no pressure, but give you an extremely short deadline.",
+    "scenarioCategories": [
+      "money_lending"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "No pressure, but I really need to know in the next ten minutes.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the speaker denies pressure while imposing a short deadline.",
+    "evidenceSpan": "in the next ten minutes",
+    "warrant": "The speaker compresses the decision window while using 'no pressure' to soften the coercion."
+  },
+  {
+    "id": "care_flattery_only_you_can_do_this",
+    "mode": "identify_pressure_pattern",
+    "context": "A teammate in a tech environment wants you to take ownership of a difficult problem and frames you as uniquely capable of handling it.",
+    "scenarioCategories": [
+      "workplace_general",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You’re honestly the only person smart enough to handle this for me.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because praise is being used to make refusal feel like rejecting a special role.",
+    "evidenceSpan": "the only person smart enough",
+    "warrant": "The speaker uses admiration to pull the listener into responsibility."
+  },
+  {
+    "id": "care_flattery_best_at_this",
+    "mode": "identify_pressure_pattern",
+    "context": "A coworker asks you to fix something for them and uses praise to make taking responsibility feel natural.",
+    "scenarioCategories": [
+      "workplace_general"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You’re so good at this. I knew you’d be the one who could fix it.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because the speaker uses praise to make taking responsibility feel natural.",
+    "evidenceSpan": "You’re so good at this",
+    "warrant": "The speaker uses a positive identity hook to make compliance feel like fulfilling a special role."
+  },
+  {
+    "id": "care_flattery_everyone_respects_you",
+    "mode": "identify_pressure_pattern",
+    "context": "A community or group decision is being discussed, and someone uses your social status to pressure you into backing their plan.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Everyone respects you. If you back this, people will follow.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because the speaker uses status and admiration to recruit compliance.",
+    "evidenceSpan": "Everyone respects you",
+    "warrant": "The speaker invokes the listener’s respected identity to make agreement feel expected."
+  },
+  {
+    "id": "forgiveness_minimization_not_big_deal",
+    "mode": "identify_pressure_pattern",
+    "context": "In a romantic relationship, you are trying to address something that hurt you, but the other person downplays the seriousness of what happened.",
+    "scenarioCategories": [
+      "romantic_sexual_relationships"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "It wasn’t even that big of a deal. I don’t know why you’re still stuck on it.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because it reduces the importance of the issue and pressures the listener to drop accountability.",
+    "evidenceSpan": "It wasn’t even that big of a deal",
+    "warrant": "The speaker downplays the harm or pattern so that continued accountability seems unreasonable."
+  },
+  {
+    "id": "forgiveness_minimization_already_apologized",
+    "mode": "identify_pressure_pattern",
+    "context": "A friend apologized for a repeated pattern, but when you try to discuss repair, they treat the apology as the end of accountability.",
+    "scenarioCategories": [
+      "friendships"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "I already apologized. Why are you bringing this up again?",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the apology is being used to shut down further accountability.",
+    "evidenceSpan": "Why are you bringing this up again?",
+    "warrant": "The speaker treats continued discussion of the pattern as unreasonable because an apology was already given."
+  },
+  {
+    "id": "forgiveness_minimization_move_on",
+    "mode": "identify_pressure_pattern",
+    "context": "A family member wants you to move past a repeated issue, but you are trying to keep accountability alive.",
+    "scenarioCategories": [
+      "family_drama"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "At some point you just need to move on. Holding onto this is unhealthy.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because it reframes accountability as unhealthy attachment to the past.",
+    "evidenceSpan": "you just need to move on",
+    "warrant": "The speaker pressures the listener to drop the issue instead of addressing the pattern."
+  },
+  {
+    "id": "care_guilt_soft_disappointment",
+    "mode": "identify_pressure_pattern",
+    "context": "You said you cannot be available for a friend, and they respond with soft disappointment rather than a direct accusation.",
+    "scenarioCategories": [
+      "friendships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "No, it’s fine. I just thought you’d want to be there for me.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because disappointment is used to make refusal feel uncaring.",
+    "evidenceSpan": "I just thought you’d want to be there for me",
+    "warrant": "The speaker implies that a caring person would comply."
+  },
+  {
+    "id": "care_urgency_window_closing",
+    "mode": "identify_pressure_pattern",
+    "context": "Someone asks you to join or support an opportunity and frames it as disappearing unless you agree immediately.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "The window is closing. If you don’t say yes now, there won’t be another chance.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because it makes immediate agreement feel like the only available option.",
+    "evidenceSpan": "If you don’t say yes now",
+    "warrant": "The speaker uses a closing window to make pausing or refusing feel costly."
+  },
+  {
+    "id": "nightlife_vip_ambiguity_manager_flexibility",
+    "mode": "identify_pressure_pattern",
+    "context": "You work in a adult-entertainment workplace. A manager asks you to accommodate a VIP, but avoids naming clear limits or expectations.",
+    "scenarioCategories": [
+      "workplace_general",
+      "adult_entertainment_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "He’s a VIP, and you’re good at reading the room. Don’t make it weird by being too rigid about the usual boundaries.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because the manager uses praise about your judgment to make boundary flexibility feel expected.",
+    "evidenceSpan": "you’re good at reading the room",
+    "warrant": "The speaker uses praise to create a vague obligation to relax boundaries for a high-status customer."
+  },
+  {
+    "id": "nightlife_customer_entitlement_regular_customer_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You work in a adult-entertainment workplace. A regular customer believes their loyalty entitles them to exceptions you have not agreed to.",
+    "scenarioCategories": [
+      "workplace_general",
+      "adult_entertainment_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "I’m one of your best regulars. I shouldn’t have to ask twice for a little special treatment.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because the customer uses loyalty and spending history to make special treatment feel owed.",
+    "evidenceSpan": "I’m one of your best regulars",
+    "warrant": "The speaker turns customer status into a claim on the listener’s time, attention, or flexibility."
+  },
+  {
+    "id": "nightlife_economic_coercion_tip_leverage_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You work in a adult-entertainment workplace. A customer hints that your income depends on giving him more access or attention than you have agreed to.",
+    "scenarioCategories": [
+      "workplace_general",
+      "adult_entertainment_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "I was going to take care of you tonight, but if you’re going to act like that, maybe I’ll spend my money somewhere else.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because the customer uses the possibility of lost money to make the worker feel responsible for his disappointment.",
+    "evidenceSpan": "maybe I’ll spend my money somewhere else",
+    "warrant": "The speaker links financial reward to compliance, making the boundary feel like a personal or economic failure."
+  },
+  {
+    "id": "nightlife_manager_pressure_handle_it_now_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You work in a adult-entertainment workplace. A manager wants you to handle a boundary-pushing VIP immediately and postpone discussing your concerns.",
+    "scenarioCategories": [
+      "workplace_general",
+      "adult_entertainment_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "He’s here right now and he’s ready to spend. Just handle it tonight, and we can talk about your concerns later.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the manager uses the immediate timing of the customer's spending to make pausing or clarifying boundaries feel unavailable.",
+    "evidenceSpan": "Just handle it tonight",
+    "warrant": "The speaker compresses the decision window and defers the worker's boundary concerns until after compliance."
+  },
+  {
+    "id": "nightlife_safety_boundary_minimization_overreacting_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You work in a adult-entertainment workplace. A customer asks for something that would bypass your normal safety boundary. When you hesitate, a manager downplays your concern.",
+    "scenarioCategories": [
+      "workplace_general",
+      "adult_entertainment_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "You’re overthinking it. He’s harmless, and you’re making a normal customer request sound like a safety issue.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the speaker downplays the safety concern and pressures the worker to treat the boundary as unnecessary.",
+    "evidenceSpan": "you’re making a normal customer request sound like a safety issue",
+    "warrant": "The speaker reduces the seriousness of the safety boundary so that continued caution seems unreasonable."
+  },
+  {
+    "id": "nightlife_appearance_labor_smile_more_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You work in a adult-entertainment workplace. You are expected to maintain a warm, upbeat presentation even when a customer is pushing past your comfort level.",
+    "scenarioCategories": [
+      "workplace_general",
+      "adult_entertainment_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Customers come here for a good mood. If you look uncomfortable, you make everyone feel awkward.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because the worker is made responsible for other people's comfort and the atmosphere of the room.",
+    "evidenceSpan": "you make everyone feel awkward",
+    "warrant": "The speaker frames visible discomfort or boundary-setting as harming the social atmosphere, making the worker feel responsible for managing everyone else's feelings."
+  },
+  {
+    "id": "community_status_guilt_everyone_counting_on_you_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are part of a local volunteer group. You said you cannot take on another event task, but the organizer frames your refusal as letting the group down.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Everyone is counting on you. It would really hurt the group if you backed out now.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because the group’s disappointment is used to make refusal feel harmful.",
+    "evidenceSpan": "It would really hurt the group",
+    "warrant": "The speaker frames the listener's boundary as causing harm to the community."
+  },
+  {
+    "id": "community_status_flattery_respected_voice_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A community organizer wants you to publicly support an initiative you are unsure about. They appeal to your respected reputation.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "People really trust your judgment. If you endorse this, everyone else will feel safe getting behind it.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because your respected status is used to recruit public support.",
+    "evidenceSpan": "People really trust your judgment",
+    "warrant": "The speaker uses admiration and reputation to make agreement feel expected."
+  },
+  {
+    "id": "community_status_urgency_vote_before_meeting_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A neighborhood association wants your vote before a public meeting. You ask for time to read the proposal first.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "We need your yes before the meeting starts. If you wait to read everything, we may lose momentum.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the speaker compresses decision time and treats review as a threat to momentum.",
+    "evidenceSpan": "before the meeting starts",
+    "warrant": "The speaker pressures an immediate answer before the listener can review the details."
+  },
+  {
+    "id": "community_status_minimization_public_concern_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You raise a concern about how a community project is being handled. A leader downplays the issue and pressures you to stop bringing it up.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "This is not a big enough issue to divide the community over. You are making it sound worse than it is.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the concern is downplayed so accountability seems divisive or unnecessary.",
+    "evidenceSpan": "not a big enough issue",
+    "warrant": "The speaker reduces the seriousness of the concern to avoid addressing it."
+  },
+  {
+    "id": "community_status_guilt_be_a_good_member_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are part of a membership group. You decline a request for extra unpaid help, and someone frames that refusal as failing the group.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "A good member would step up when the group needs them.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because membership identity is used to make extra help feel morally required.",
+    "evidenceSpan": "A good member would step up",
+    "warrant": "The speaker makes refusal feel like failing the standards of group belonging."
+  },
+  {
+    "id": "community_status_flattery_natural_leader_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A local group wants you to lead a project you do not have capacity for. They praise your leadership to make it harder to refuse.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You are the natural leader here. People follow you because you know how to bring everyone together.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because praise about leadership is used to pull you into responsibility.",
+    "evidenceSpan": "You are the natural leader here",
+    "warrant": "The speaker invokes admiration to make refusal feel like rejecting a valued role."
+  },
+  {
+    "id": "community_status_urgency_post_public_support_now_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A public issue is trending in your community. Someone wants you to post support immediately before you have decided what you think.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "If you wait until tomorrow to say something, people will notice your silence.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the speaker uses a public timeline to make immediate action feel necessary.",
+    "evidenceSpan": "If you wait until tomorrow",
+    "warrant": "The speaker compresses decision time and implies social consequences for delay."
+  },
+  {
+    "id": "community_status_guilt_silence_equals_betrayal_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A community dispute is happening. You do not want to make a public statement before understanding the situation, but someone frames silence as betrayal.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Staying quiet right now tells everyone whose side you are really on.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because hesitation is framed as betrayal or moral failure.",
+    "evidenceSpan": "tells everyone whose side you are really on",
+    "warrant": "The speaker makes refusal to act immediately feel like evidence of disloyalty."
+  },
+  {
+    "id": "community_status_minimization_stop_being_sensitive_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You object to a joke or comment at a community event. Others pressure you to drop it by minimizing the concern.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "It was just a joke. You are being way too sensitive about this.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the speaker downplays the issue and makes accountability seem like overreaction.",
+    "evidenceSpan": "It was just a joke",
+    "warrant": "The speaker reduces the significance of the behavior to avoid addressing its impact."
+  },
+  {
+    "id": "community_status_flattery_voice_of_reason_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A group wants you to help smooth over conflict even though you do not agree with how the issue is being handled.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You are the voice of reason. If you tell everyone to calm down, they will listen.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because your respected identity is used to make you responsible for managing the group.",
+    "evidenceSpan": "You are the voice of reason",
+    "warrant": "The speaker uses admiration to pull the listener into emotional or social labor."
+  },
+  {
+    "id": "community_status_guilt_donor_expectations_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A nonprofit group asks you to attend an event for major donors. You are uncomfortable with the request, but they frame it as necessary for the mission.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "The donors expect to see committed people there. If you skip it, it sends the wrong message about our mission.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because your attendance is framed as proof of commitment to the mission.",
+    "evidenceSpan": "it sends the wrong message about our mission",
+    "warrant": "The speaker makes refusal feel like harming the cause or appearing uncommitted."
+  },
+  {
+    "id": "community_status_urgency_endorse_before_vote_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A community board vote is coming up. Someone wants you to publicly endorse a candidate before you have finished reviewing the situation.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "The vote is tonight. If you do not endorse now, your support will not matter.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the speaker uses the vote deadline to force public support before review.",
+    "evidenceSpan": "The vote is tonight",
+    "warrant": "The speaker uses a deadline to make pausing or gathering information feel unavailable."
+  },
+  {
+    "id": "community_status_minimization_reputation_concern_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You raise concerns about a respected community member’s behavior. Someone downplays the issue because the person has a good reputation.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "They have done so much good for this community. We should not make a big thing out of one complaint.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because a person’s reputation is used to reduce the seriousness of the concern.",
+    "evidenceSpan": "one complaint",
+    "warrant": "The speaker downplays accountability by making the issue seem isolated or too small to address."
+  },
+  {
+    "id": "community_status_guilt_not_showing_up_for_cause_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You decide not to attend a public community action because you need rest. Someone frames your absence as a lack of care for the cause.",
+    "scenarioCategories": [
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "If you really cared about this cause, you would be there in person.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because care for the cause is made conditional on attendance.",
+    "evidenceSpan": "If you really cared about this cause",
+    "warrant": "The speaker frames refusal or absence as proof of insufficient commitment."
+  },
+
+
+
+
+  {
+    "id": "nightlife_urgency_stay_for_one_more_place_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are out with friends and say you are ready to go home. The group wants to continue to another bar and pressures you to decide immediately.",
+    "scenarioCategories": ["nightlife", "friendships"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "The rideshare is here right now. If you are coming to the next place, you need to decide in the next two minutes.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the group uses the immediate rideshare timing to make pausing or leaving feel unavailable.",
+    "evidenceSpan": "you need to decide in the next two minutes",
+    "warrant": "The speaker compresses decision time so the listener feels pushed into a quick yes."
+  },
+  {
+    "id": "nightlife_guilt_dont_kill_the_vibe_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are at a club with friends and say you want to leave early. Someone frames your boundary as ruining the group mood.",
+    "scenarioCategories": ["nightlife", "friendships"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Come on, don’t kill the vibe. Everyone was having fun until you started talking about leaving.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because your decision to leave is framed as harming the group’s fun.",
+    "evidenceSpan": "don’t kill the vibe",
+    "warrant": "The speaker makes the listener responsible for preserving everyone else’s mood."
+  },
+  {
+    "id": "nightlife_flattery_you_belong_in_vip_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A group at a nightlife venue invites you into a VIP area. You are unsure, and they use special-status language to encourage you.",
+    "scenarioCategories": ["nightlife", "community_status"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You should come with us. You have the kind of energy that actually belongs in VIP.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because special-status praise is used to make joining feel like recognition.",
+    "evidenceSpan": "belongs in VIP",
+    "warrant": "The speaker uses status and admiration to pull the listener into participation."
+  },
+  {
+    "id": "nightlife_minimization_just_one_drink_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You say you are done drinking for the night. Someone downplays your limit and treats it as unnecessary seriousness.",
+    "scenarioCategories": ["nightlife"],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "It’s just one drink. You are acting like this is some huge decision.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the speaker downplays the significance of your limit.",
+    "evidenceSpan": "just one drink",
+    "warrant": "The speaker reduces the boundary to something trivial so that maintaining it seems excessive."
+  },
+  {
+    "id": "nightlife_guilt_you_never_come_out_anymore_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You decline an invitation to go out late because you need rest. A friend frames your refusal as abandoning the group.",
+    "scenarioCategories": ["nightlife", "friendships"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You never come out anymore. I guess we’re not really your people now.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because staying home is framed as rejecting the friendship group.",
+    "evidenceSpan": "we’re not really your people now",
+    "warrant": "The speaker makes refusal feel like relational abandonment."
+  },
+  {
+    "id": "nightlife_urgency_last_chance_to_get_in_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are outside a club with a group. You hesitate because you are unsure about the scene, but someone pressures you before the line moves.",
+    "scenarioCategories": ["nightlife", "community_status"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "This is our last chance to get in without waiting another hour. Are you in or not?",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the possibility of losing access is used to force a quick decision.",
+    "evidenceSpan": "last chance to get in",
+    "warrant": "The speaker uses scarcity and timing to make pausing feel costly."
+  },
+  {
+    "id": "nightlife_flattery_fun_one_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You say you want to slow down for the night. A friend praises your usual social energy to pull you back into the group plan.",
+    "scenarioCategories": ["nightlife", "friendships"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You’re the fun one. It’s not the same if you tap out early.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because praise about your social identity is used to make leaving feel like failing the group role.",
+    "evidenceSpan": "You’re the fun one",
+    "warrant": "The speaker uses a positive identity to pressure continued participation."
+  },
+  {
+    "id": "nightlife_minimization_stop_being_paranoid_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You say a situation at a party feels off and you want to leave. Someone downplays your concern and makes caution seem unreasonable.",
+    "scenarioCategories": ["nightlife"],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "You’re being paranoid. Nothing is happening; you’re just making it weird.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the speaker downplays your safety or comfort concern and frames it as overreaction.",
+    "evidenceSpan": "Nothing is happening",
+    "warrant": "The speaker reduces the seriousness of the concern so that leaving seems unreasonable."
+  },
+  {
+    "id": "nightlife_guilt_dont_leave_me_here_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You tell a friend you are ready to leave a crowded bar. They want to stay and make you responsible for their comfort if you go.",
+    "scenarioCategories": ["nightlife", "friendships"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You’re really going to leave me here by myself after I came out for you?",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because leaving is framed as abandoning the friend.",
+    "evidenceSpan": "leave me here by myself",
+    "warrant": "The speaker makes the listener responsible for their emotional comfort and social experience."
+  },
+  {
+    "id": "nightlife_urgency_afterparty_now_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A group invites you to an afterparty. You ask where it is and who will be there, but they pressure you to decide before giving much information.",
+    "scenarioCategories": ["nightlife", "community_status"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "We’re leaving for the afterparty now. If you need all the details first, we’ll just go without you.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the group uses immediate departure to discourage asking for clarity.",
+    "evidenceSpan": "leaving for the afterparty now",
+    "warrant": "The speaker compresses decision time and makes information-gathering feel like losing access."
+  },
+  {
+    "id": "nightlife_flattery_you_can_handle_yourself_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You say you want to leave with your own ride instead of going with a group you just met. Someone praises your confidence to make you ignore your caution.",
+    "scenarioCategories": ["nightlife"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You seem like someone who can handle yourself. You don’t need to be so cautious.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because praise about confidence is used to make caution feel unnecessary.",
+    "evidenceSpan": "someone who can handle yourself",
+    "warrant": "The speaker uses admiration to pressure the listener away from a safety or comfort boundary."
+  },
+  {
+    "id": "nightlife_minimization_no_big_deal_dance_001",
+    "mode": "identify_pressure_pattern",
+    "context": "Someone at a club keeps pushing for more interaction after you already said no. When you resist, they downplay the request.",
+    "scenarioCategories": ["nightlife", "romantic_sexual_relationships"],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "It’s just one dance. You’re acting like I asked for something serious.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the speaker downplays the boundary and makes refusal seem excessive.",
+    "evidenceSpan": "just one dance",
+    "warrant": "The speaker reduces the request to something trivial so the listener’s no seems unreasonable."
+  },
+  {
+    "id": "nightlife_guilt_birthday_group_pressure_001",
+    "mode": "identify_pressure_pattern",
+    "context": "It is someone’s birthday night out. You say you do not want to keep drinking or stay out longer, and the group frames your limit as spoiling the celebration.",
+    "scenarioCategories": ["nightlife", "friendships"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "It’s their birthday. Don’t make tonight about your limits.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because your boundary is framed as taking attention away from someone else’s celebration.",
+    "evidenceSpan": "Don’t make tonight about your limits",
+    "warrant": "The speaker makes maintaining a boundary feel selfish or socially harmful."
+  },
+  {
+    "id": "nightlife_urgency_closing_time_decision_001",
+    "mode": "identify_pressure_pattern",
+    "context": "The bar is closing and a group wants you to go somewhere else. You hesitate because you are tired and unsure.",
+    "scenarioCategories": ["nightlife"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "They’re closing. Decide now or you’re going to miss the ride.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the closing-time deadline is used to force a quick decision.",
+    "evidenceSpan": "Decide now",
+    "warrant": "The speaker compresses the decision window and makes pausing feel costly."
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "description": "Pressure that makes refusal feel cruel, selfish, disloyal, or morally wrong.",
+      "relatedPressures": ["guilt", "pity"],
+      "relatedFunctions": [
+        "conditional_care",
+        "framing_refusal_as_abandonment",
+        "gratitude_to_debt"
+      ]
+    },
+    {
+      "id": "identity",
+      "label": "Identity",
+      "description": "Pressure that makes compliance a test of who you are or how others should see you.",
+      "relatedPressures": ["status", "disappointment"],
+      "relatedFunctions": [
+        "identity_hook",
+        "status_pressure",
+        "disappointment_punishment"
+      ]
+    },
+    {
+      "id": "urgency",
+      "label": "Urgency",
+      "description": "Pressure that compresses decision time so pausing, refusing, or reflecting feels unavailable.",
+      "relatedPressures": ["urgency"],
+      "relatedFunctions": ["pressure_laundering", "false_deadline"]
+    },
+    {
+      "id": "desire_pacing",
+      "label": "Desire / Pacing",
+      "description": "Pressure around desire, consent, escalation, reversibility, and the ability to slow down or stop.",
+      "relatedPressures": ["escalation", "awkwardness", "validation"],
+      "relatedFunctions": [
+        "treating_previous_consent_as_future_obligation",
+        "reframing_discomfort_as_growth",
+        "making_slowdown_feel_immature"
+      ]
+    },
+    {
+      "id": "work_power",
+      "label": "Work / Power",
+      "description": "Pressure that uses hierarchy, career consequences, status, or deniable authority.",
+      "relatedPressures": ["status", "career_consequence", "deniable_threat"],
+      "relatedFunctions": [
+        "career_pressure_with_deniability",
+        "false_choice",
+        "scope_ambiguity"
+      ]
+    },
+    {
+      "id": "family_obligation",
+      "label": "Family / Obligation",
+      "description": "Pressure that converts family role, loyalty, gratitude, or history into automatic availability.",
+      "relatedPressures": ["loyalty", "guilt", "tradition"],
+      "relatedFunctions": [
+        "role_obligation",
+        "gratitude_to_debt",
+        "loyalty_test"
+      ]
+    }
+  ]
+}
