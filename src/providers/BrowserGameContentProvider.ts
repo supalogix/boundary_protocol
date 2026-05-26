@@ -6,15 +6,30 @@ import { validateScenarioFrame } from "../domain/validateScenarioFrame";
 import { validateSentenceFunctionScenario } from "../domain/validateSentenceFunctionScenario";
 import { loadPressureScenarioCategories } from "./BrowserPressureScenarioCategoryProvider";
 
-async function fetchJson<T>(url: string): Promise<T> {
-  const response = await fetch(url);
+function withBasePath(path: string): string {
+  const base = import.meta.env.BASE_URL;
+  return `${base}${path.replace(/^\//, "")}`;
+}
+
+async function fetchJson<T>(path: string): Promise<T> {
+  const response = await fetch(withBasePath(path));
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+    throw new Error(`Failed to fetch ${path}: ${response.status}`);
   }
 
   return (await response.json()) as T;
 }
+
+//async function fetchJson<T>(url: string): Promise<T> {
+//  const response = await fetch(url);
+//
+//  if (!response.ok) {
+//    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+//  }
+//
+//  return (await response.json()) as T;
+//}
 
 export async function loadDomainCatalog(): Promise<DomainCatalog> {
   return fetchJson<DomainCatalog>("/data/catalogs/domainCatalog.json");
