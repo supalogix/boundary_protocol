@@ -1,0 +1,596 @@
+[
+  {
+    "id": "friendship_abandonment_frame_001",
+    "mode": "what_is_sentence_doing",
+    "category": "friendship",
+    "difficulty": 1,
+    "context": "You told a friend you are not available to help tonight.",
+    "sentence": "I'm not saying you have to help me. I just thought you were the kind of person who didn't abandon people.",
+    "taxonomyTags": ["guilt"],
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They are saying you do not literally have to help."
+        },
+        {
+          "id": "B",
+          "text": "They are apologizing for asking."
+        },
+        {
+          "id": "C",
+          "text": "They are setting a clear boundary."
+        }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Respecting your choice"
+        },
+        {
+          "id": "B",
+          "text": "Clarifying expectations"
+        },
+        {
+          "id": "C",
+          "text": "Framing refusal as abandonment"
+        },
+        {
+          "id": "D",
+          "text": "Asking for emotional support"
+        }
+      ],
+      "correctChoiceId": "C"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fine, I'll help. I don't want you to feel abandoned."
+        },
+        {
+          "id": "B",
+          "text": "That's manipulative. Stop guilt-tripping me."
+        },
+        {
+          "id": "C",
+          "text": "I care about you. I'm still not available to help."
+        },
+        {
+          "id": "D",
+          "text": "Why would you say that? I've always been there for you."
+        }
+      ],
+      "correctChoiceId": "C"
+    },
+    "surfaceMeaning": "I am not literally forcing you to help.",
+    "functionalMeaning": "If you refuse, you are abandoning me.",
+    "hiddenMove": "The speaker denies pressure while making your no feel like betrayal.",
+    "counterSkill": "Separate care from compliance.",
+    "exampleResponse": "I care about you. I'm still not available to help.",
+    "unlockedFunctionCard": "Framing Refusal as Abandonment"
+  },
+  {
+    "id": "pressure_laundering_urgency_001",
+    "mode": "what_is_sentence_doing",
+    "category": "money",
+    "difficulty": 1,
+    "context": "Someone wants a decision from you before you have had time to think.",
+    "sentence": "No pressure, but I need to know tonight.",
+    "taxonomyTags": ["urgency"],
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They are saying there is no pressure."
+        },
+        {
+          "id": "B",
+          "text": "They are apologizing."
+        },
+        {
+          "id": "C",
+          "text": "They are ending the conversation."
+        }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Removing urgency"
+        },
+        {
+          "id": "B",
+          "text": "Applying urgency while denying pressure"
+        },
+        {
+          "id": "C",
+          "text": "Offering neutral information"
+        },
+        {
+          "id": "D",
+          "text": "Repairing trust"
+        }
+      ],
+      "correctChoiceId": "B"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Okay, I'll decide tonight."
+        },
+        {
+          "id": "B",
+          "text": "Why are you pressuring me?"
+        },
+        {
+          "id": "C",
+          "text": "I'm not making this decision tonight."
+        },
+        {
+          "id": "D",
+          "text": "Fine, but only this once."
+        }
+      ],
+      "correctChoiceId": "C"
+    },
+    "surfaceMeaning": "I am not pressuring you.",
+    "functionalMeaning": "I am applying urgency while denying that I am applying pressure.",
+    "hiddenMove": "Pressure laundering: the speaker denies pressure while adding a deadline.",
+    "counterSkill": "Name the decision timeline.",
+    "exampleResponse": "I'm not making this decision tonight.",
+    "unlockedFunctionCard": "Pressure Laundering"
+  },
+  {
+    "id": "guilt_care_conditional_help_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["guilt"],
+    "category": "friendship",
+    "difficulty": 1,
+    "context": "You told a friend you cannot help them move this weekend.",
+    "sentence": "I guess I thought you cared enough to show up when it mattered.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "They are disappointed you cannot help." },
+        { "id": "B", "text": "They are asking for scheduling help." },
+        { "id": "C", "text": "They are ending the friendship." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Respecting your limit" },
+        { "id": "B", "text": "Making care conditional on compliance" },
+        { "id": "C", "text": "Clarifying logistics" },
+        { "id": "D", "text": "Offering repair" }
+      ],
+      "correctChoiceId": "B"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "Fine, I’ll come. I don’t want you to think I don’t care." },
+        { "id": "B", "text": "That’s unfair. I’ve helped you plenty of times." },
+        { "id": "C", "text": "I do care. I’m still not available this weekend." },
+        { "id": "D", "text": "Maybe I can rearrange everything." }
+      ],
+      "correctChoiceId": "C"
+    },
+    "surfaceMeaning": "They are expressing disappointment that you cannot help.",
+    "functionalMeaning": "They are making your care depend on whether you comply.",
+    "hiddenMove": "The sentence turns a practical refusal into a test of whether you care.",
+    "counterSkill": "Separate care from compliance.",
+    "exampleResponse": "I do care. I’m still not available this weekend.",
+    "unlockedFunctionCard": "Conditional Care"
+  },
+  {
+    "id": "identity_misread_you_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["identity"],
+    "category": "status",
+    "difficulty": 2,
+    "context": "You decline a request that would overextend you. The other person wanted you to say yes because they see you as dependable.",
+    "sentence": "I guess I misread you. I thought you were the kind of person people could count on.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "They misunderstood what kind of person you are." },
+        { "id": "B", "text": "They are asking for clarification." },
+        { "id": "C", "text": "They are apologizing for asking." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Respecting your refusal" },
+        { "id": "B", "text": "Using identity as leverage" },
+        { "id": "C", "text": "Clarifying their expectations" },
+        { "id": "D", "text": "Making a neutral observation" }
+      ],
+      "correctChoiceId": "B"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "I am dependable. I can prove it." },
+        { "id": "B", "text": "You’re wrong about me." },
+        { "id": "C", "text": "You may see it that way. My answer is still no." },
+        { "id": "D", "text": "Okay, I’ll do it this time." }
+      ],
+      "correctChoiceId": "C"
+    },
+    "surfaceMeaning": "They are saying their view of you has changed.",
+    "functionalMeaning": "They are pressuring you to restore a flattering identity by complying.",
+    "hiddenMove": "The sentence makes your refusal feel like evidence that you are not dependable.",
+    "counterSkill": "Refuse the identity test.",
+    "exampleResponse": "You may see it that way. My answer is still no.",
+    "unlockedFunctionCard": "Identity Hook"
+  },
+  {
+    "id": "urgency_decide_tonight_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["urgency"],
+    "category": "money",
+    "difficulty": 1,
+    "context": "Someone wants you to make a financial decision before you have had time to think.",
+    "sentence": "I need to know tonight. If you wait until tomorrow, this whole thing falls apart.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "They need a quick answer." },
+        { "id": "B", "text": "They are apologizing for the pressure." },
+        { "id": "C", "text": "They are giving you unlimited time." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Making pause feel unavailable" },
+        { "id": "B", "text": "Respecting your decision process" },
+        { "id": "C", "text": "Offering neutral information only" },
+        { "id": "D", "text": "Repairing the conversation" }
+      ],
+      "correctChoiceId": "A"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "Okay, yes, if it has to be tonight." },
+        { "id": "B", "text": "I’m not deciding under time pressure." },
+        { "id": "C", "text": "Why are you doing this to me?" },
+        { "id": "D", "text": "Maybe I can give you a partial yes." }
+      ],
+      "correctChoiceId": "B"
+    },
+    "surfaceMeaning": "They need an answer tonight.",
+    "functionalMeaning": "They are compressing decision time so pausing feels unavailable.",
+    "hiddenMove": "The sentence turns urgency into leverage.",
+    "counterSkill": "Protect the pause.",
+    "exampleResponse": "I’m not deciding under time pressure.",
+    "unlockedFunctionCard": "Urgency Pressure"
+  },
+  {
+    "id": "desire_pacing_previous_consent_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["desire_pacing"],
+    "category": "romance",
+    "difficulty": 3,
+    "context": "You were comfortable earlier, but now you want to slow down. The other person responds.",
+    "sentence": "You were into it earlier. Don’t make this weird now.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "They are pointing out that your mood changed." },
+        { "id": "B", "text": "They are asking for consent." },
+        { "id": "C", "text": "They are setting their own boundary." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Respecting reversibility" },
+        { "id": "B", "text": "Treating previous consent as future obligation" },
+        { "id": "C", "text": "Repairing trust" },
+        { "id": "D", "text": "Asking for clarification" }
+      ],
+      "correctChoiceId": "B"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "You’re right, I was into it earlier." },
+        { "id": "B", "text": "I don’t want to be weird." },
+        { "id": "C", "text": "I’m allowed to change pace. I want to slow down." },
+        { "id": "D", "text": "Maybe I’m overthinking it." }
+      ],
+      "correctChoiceId": "C"
+    },
+    "surfaceMeaning": "They are saying you seemed interested earlier.",
+    "functionalMeaning": "They are treating earlier interest as an obligation to continue.",
+    "hiddenMove": "The sentence attacks reversibility by making slowdown seem inconsistent or awkward.",
+    "counterSkill": "Preserve reversibility.",
+    "exampleResponse": "I’m allowed to change pace. I want to slow down.",
+    "unlockedFunctionCard": "Previous Consent as Future Obligation"
+  },
+  {
+    "id": "work_power_optional_notices_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["work_power"],
+    "category": "work",
+    "difficulty": 4,
+    "context": "You declined unpaid weekend work. Your manager responds.",
+    "sentence": "Of course it’s optional. I’m just saying leadership notices who goes the extra mile.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "The work is technically optional." },
+        { "id": "B", "text": "The manager is apologizing." },
+        { "id": "C", "text": "The manager is giving you a raise." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Removing all pressure" },
+        { "id": "B", "text": "Applying career pressure while preserving deniability" },
+        { "id": "C", "text": "Asking for clarification" },
+        { "id": "D", "text": "Respecting your weekend" }
+      ],
+      "correctChoiceId": "B"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "I care about my future here, so I’ll do it." },
+        { "id": "B", "text": "Are you threatening me?" },
+        { "id": "C", "text": "I’m not available this weekend. I’m happy to discuss workload expectations next week." },
+        { "id": "D", "text": "That’s unfair." }
+      ],
+      "correctChoiceId": "C"
+    },
+    "surfaceMeaning": "The manager says the weekend work is optional.",
+    "functionalMeaning": "The manager attaches career consequences while denying that it is a requirement.",
+    "hiddenMove": "False choice with plausible deniability.",
+    "counterSkill": "Move from emotional pressure to explicit expectations.",
+    "exampleResponse": "I’m not available this weekend. I’m happy to discuss workload expectations next week.",
+    "unlockedFunctionCard": "Deniable Career Pressure"
+  },
+  {
+    "id": "family_obligation_family_helps_family_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["family_obligation"],
+    "category": "family",
+    "difficulty": 2,
+    "context": "A family member asks you to take on a responsibility you do not have capacity for.",
+    "sentence": "Family helps family. I shouldn’t even have to ask.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "Family members should help each other." },
+        { "id": "B", "text": "They are giving you a choice with no pressure." },
+        { "id": "C", "text": "They are apologizing for asking." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Turning family role into automatic obligation" },
+        { "id": "B", "text": "Respecting your limits" },
+        { "id": "C", "text": "Clarifying the task" },
+        { "id": "D", "text": "Offering repair" }
+      ],
+      "correctChoiceId": "A"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "You’re right. I should do it because we’re family." },
+        { "id": "B", "text": "Being family matters to me. I’m still not able to do this." },
+        { "id": "C", "text": "You always do this." },
+        { "id": "D", "text": "Maybe I can force myself." }
+      ],
+      "correctChoiceId": "B"
+    },
+    "surfaceMeaning": "Family members should help each other.",
+    "functionalMeaning": "The sentence makes family belonging depend on automatic compliance.",
+    "hiddenMove": "Role obligation: the relationship category is used as a command.",
+    "counterSkill": "Keep belonging separate from unlimited availability.",
+    "exampleResponse": "Being family matters to me. I’m still not able to do this.",
+    "unlockedFunctionCard": "Family Obligation"
+  },
+  {
+    "id": "guilt_urgency_need_you_tonight_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["guilt", "urgency"],
+    "category": "friendship",
+    "difficulty": 3,
+    "context": "A friend asks for help tonight after you said you need time to think.",
+    "sentence": "I wouldn’t ask if it wasn’t serious. I need you tonight.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "The situation is serious and time-sensitive." },
+        { "id": "B", "text": "They no longer need help." },
+        { "id": "C", "text": "They are apologizing for asking." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Combining guilt and urgency to make refusal harder" },
+        { "id": "B", "text": "Removing pressure by explaining the situation" },
+        { "id": "C", "text": "Setting a mutual boundary" },
+        { "id": "D", "text": "Offering you more time" }
+      ],
+      "correctChoiceId": "A"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "Okay, if it’s serious, I’ll do it." },
+        { "id": "B", "text": "I care, but I’m not deciding under pressure tonight." },
+        { "id": "C", "text": "Why are you making this so dramatic?" },
+        { "id": "D", "text": "Maybe I can give you a yes later." }
+      ],
+      "correctChoiceId": "B"
+    },
+    "surfaceMeaning": "They are saying the situation is serious and urgent.",
+    "functionalMeaning": "They are combining moral seriousness with a deadline to make refusal feel unavailable.",
+    "hiddenMove": "Urgent guilt: care is made to feel mandatory right now.",
+    "counterSkill": "Preserve both care and pause.",
+    "exampleResponse": "I care, but I’m not deciding under pressure tonight.",
+    "unlockedFunctionCard": "Urgent Guilt"
+  },
+  {
+    "id": "identity_desire_maturity_test_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["identity", "desire_pacing"],
+    "category": "romance",
+    "difficulty": 4,
+    "context": "You said you want to slow down physically. The other person responds.",
+    "sentence": "I thought you were more mature than this. I guess I misread the connection.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "They are disappointed and questioning the connection." },
+        { "id": "B", "text": "They are asking for consent." },
+        { "id": "C", "text": "They are apologizing for moving too fast." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Respecting your pace" },
+        { "id": "B", "text": "Making your boundary seem immature and threatening the relationship image" },
+        { "id": "C", "text": "Clarifying your comfort level" },
+        { "id": "D", "text": "Offering repair" }
+      ],
+      "correctChoiceId": "B"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "I am mature. I can prove it." },
+        { "id": "B", "text": "Sorry, I didn’t mean to ruin the connection." },
+        { "id": "C", "text": "I’m comfortable with my pace. I’m not moving faster than I want to." },
+        { "id": "D", "text": "Maybe I’m being immature." }
+      ],
+      "correctChoiceId": "C"
+    },
+    "surfaceMeaning": "They are disappointed and questioning how they see you or the connection.",
+    "functionalMeaning": "They are making your boundary a test of maturity and relational worth.",
+    "hiddenMove": "Identity hook plus pacing pressure.",
+    "counterSkill": "Refuse the maturity test and preserve pacing.",
+    "exampleResponse": "I’m comfortable with my pace. I’m not moving faster than I want to.",
+    "unlockedFunctionCard": "Maturity Test"
+  },
+  {
+    "id": "work_power_urgency_dependable_timeline_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["work_power", "urgency"],
+    "category": "work",
+    "difficulty": 4,
+    "context": "Your manager asks for extra work on an unrealistic timeline.",
+    "sentence": "I need this by tomorrow if you want to be seen as dependable.",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "There is a deadline and dependability matters." },
+        { "id": "B", "text": "The deadline is flexible." },
+        { "id": "C", "text": "They are asking whether the task is possible." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Combining deadline pressure with identity/status pressure" },
+        { "id": "B", "text": "Offering workload support" },
+        { "id": "C", "text": "Respecting your capacity" },
+        { "id": "D", "text": "Clarifying priorities neutrally" }
+      ],
+      "correctChoiceId": "A"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "I want to be dependable, so I’ll do it." },
+        { "id": "B", "text": "I can discuss priorities, but I’m not available for that timeline." },
+        { "id": "C", "text": "That’s manipulative." },
+        { "id": "D", "text": "I’ll stay up all night if I have to." }
+      ],
+      "correctChoiceId": "B"
+    },
+    "surfaceMeaning": "There is a deadline and dependability is being invoked.",
+    "functionalMeaning": "The sentence uses urgency and professional identity to pressure compliance.",
+    "hiddenMove": "Deadline-backed status pressure.",
+    "counterSkill": "Clarify priorities and protect capacity.",
+    "exampleResponse": "I can discuss priorities, but I’m not available for that timeline.",
+    "unlockedFunctionCard": "Deadline-Backed Status Pressure"
+  },
+  {
+    "id": "family_guilt_after_everything_001",
+    "mode": "what_is_sentence_doing",
+    "taxonomyTags": ["family_obligation", "guilt"],
+    "category": "family",
+    "difficulty": 3,
+    "context": "A family member asks you for help you cannot provide. When you hesitate, they respond.",
+    "sentence": "After everything this family has done for you, you’re really going to say no?",
+    "surfaceQuestion": {
+      "prompt": "What does the sentence appear to say?",
+      "choices": [
+        { "id": "A", "text": "They are reminding you of family history." },
+        { "id": "B", "text": "They are giving neutral information." },
+        { "id": "C", "text": "They are apologizing for asking." }
+      ],
+      "correctChoiceId": "A"
+    },
+    "functionQuestion": {
+      "prompt": "What is the sentence doing?",
+      "choices": [
+        { "id": "A", "text": "Converting family gratitude into debt" },
+        { "id": "B", "text": "Respecting your no" },
+        { "id": "C", "text": "Clarifying the request" },
+        { "id": "D", "text": "Offering emotional support" }
+      ],
+      "correctChoiceId": "A"
+    },
+    "countermoveQuestion": {
+      "prompt": "Choose the cleanest countermove.",
+      "choices": [
+        { "id": "A", "text": "You’re right. I owe the family." },
+        { "id": "B", "text": "I’m grateful. I’m still not able to do this." },
+        { "id": "C", "text": "Stop guilt-tripping me." },
+        { "id": "D", "text": "Maybe I can do it if everyone expects me to." }
+      ],
+      "correctChoiceId": "B"
+    },
+    "surfaceMeaning": "They are pointing to what the family has done for you.",
+    "functionalMeaning": "They are turning gratitude and family history into an obligation to comply.",
+    "hiddenMove": "Gratitude-to-debt conversion inside a family role.",
+    "counterSkill": "Keep gratitude separate from unlimited obligation.",
+    "exampleResponse": "I’m grateful. I’m still not able to do this.",
+    "unlockedFunctionCard": "Family Guilt"
+  }
+]
