@@ -3,6 +3,7 @@ import { RoundEngine } from "../../engine/RoundEngine";
 import type { ScenarioFrame } from "../../domain/types";
 import { shuffleArray } from "../../domain/shuffleArray";
 import { PressurePatternComplete } from "./PressurePatternComplete";
+import { flags } from "../../flags";
 
 type Props = {
   scenarios: ScenarioFrame[];
@@ -113,11 +114,20 @@ export function PressurePatternGame({ scenarios }: Props) {
 
       <h2>Identify Pressure Pattern</h2>
 
-      <p>
-        <strong>Context:</strong> {scenario.context}
-      </p>
+        {scenario.backgroundStory && (
+        <div className="scenarioBackground">
+            <h3>Background Story</h3>
+            <p>{scenario.backgroundStory}</p>
+        </div>
+        )}
 
-      <blockquote>{scenario.prompt}</blockquote>
+        {flags.showPressureScenarioContext && (
+        <p className="scenarioContext">
+            <strong>Context:</strong> {scenario.context}
+        </p>
+        )}
+
+        <blockquote>{scenario.prompt}</blockquote>
 
       <div className="choiceGrid">
         {scenario.choices.map((choice) => (

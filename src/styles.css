@@ -290,3 +290,27 @@ pre {
   background: #eef4ec;
   border: 1px solid #cad8c4;
 }
+
+.scenarioBackground {
+  margin: 18px 0;
+  padding: 18px;
+  border-radius: 18px;
+  background: #f4f0e8;
+  border: 1px solid #ddd2c1;
+}
+
+.scenarioBackground h3 {
+  margin: 0 0 8px;
+}
+
+.scenarioBackground p {
+  margin: 0;
+  line-height: 1.55;
+  color: #4f463b;
+}
+
+.scenarioContext {
+  margin: 16px 0;
+  color: #5f5548;
+  line-height: 1.5;
+}

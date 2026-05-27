@@ -32,6 +32,13 @@ export function validateScenarioFrame(
   }
 
   if (
+    frame.backgroundStory !== undefined &&
+    typeof frame.backgroundStory !== "string"
+  ) {
+    errors.push("Scenario backgroundStory must be a string when provided.");
+  }
+
+  if (
     !Array.isArray(frame.scenarioCategories) ||
     frame.scenarioCategories.length === 0
   ) {

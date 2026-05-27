@@ -22,6 +22,7 @@ export type ScenarioFrame = {
   id: string;
   mode: "identify_pressure_pattern";
   context: string;
+  backgroundStory?: string;
   scenarioCategories: string[];
   conceptualFrame: ConceptualFrame;
   prompt: string;

@@ -17,6 +17,11 @@
 
     },
     {
+      "id": "coercive_sexual_power_dynamics",
+      "label": "Coercive Sexual Power Dynamics",
+      "description": "Boundary pressure in intimate, lifestyle, polycule, swinger, sugar-dating, status-sex, or sexually charged social scenes where sex, desirability, access, money, reputation, secrecy, social rank, or partner participation can become leverage. This category focuses on coercive or predatory dynamics such as sexual blackmail, status trading, unicorn pressure, partner-as-social-proof pressure, consent ambiguity, economic dependence, and pressure to blur private, romantic, sexual, and professional boundaries."
+    },
+    {
       "id": "tech_workplace",
       "label": "Tech Environments",
       "description": "Pressure patterns common in tech: startup urgency, on-call heroics, scope creep, impact/status pressure, performance review leverage, and 'team player' framing."

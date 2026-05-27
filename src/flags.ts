@@ -5,4 +5,6 @@ export const flags = {
   enableLlmAnalysis: false,
   enablePersistence: false,
   enableProtocolInstall: false,
+
+  showPressureScenarioContext: true
 } as const;
