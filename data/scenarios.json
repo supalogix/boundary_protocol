@@ -1640,5 +1640,299 @@
     "explanation": "This is urgency pressure because the closing-time deadline is used to force a quick decision.",
     "evidenceSpan": "Decide now",
     "warrant": "The speaker compresses the decision window and makes pausing feel costly."
+  },
+
+
+
+
+
+
+
+  {
+    "id": "spiritual_abuse_guilt_harming_the_mission_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You raise concerns about a respected ministry leader's behavior. A senior leader warns that speaking publicly could damage the ministry's witness.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Think about how many people this ministry reaches. If you push this further, you could damage the work God is doing.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because the concern is reframed as harming a sacred mission.",
+    "evidenceSpan": "you could damage the work God is doing",
+    "warrant": "The speaker makes accountability feel like spiritual harm, pressuring the listener to protect the institution instead of naming the concern."
+  },
+  {
+    "id": "spiritual_abuse_guilt_disloyal_to_leader_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You ask for transparency about a leader's misconduct. Another staff member frames your questions as betrayal.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "After everything he has done for this community, I can't believe you would question him like this.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because questioning authority is reframed as disloyalty or ingratitude.",
+    "evidenceSpan": "After everything he has done for this community",
+    "warrant": "The speaker uses the leader's past service to make accountability feel morally wrong."
+  },
+  {
+    "id": "spiritual_abuse_minimization_we_are_all_sinners_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are trying to name a serious pattern of harm. Someone responds with religious language that flattens the issue into ordinary imperfection.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "We are all sinners. None of us should act like this one failure defines him.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because serious harm is reduced to ordinary human imperfection.",
+    "evidenceSpan": "We are all sinners",
+    "warrant": "The speaker uses universal imperfection to downplay a specific pattern that still requires accountability."
+  },
+  {
+    "id": "spiritual_abuse_minimization_forgive_and_move_on_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You want repair and accountability after a leader harmed people. A church member says continuing to ask questions shows unforgiveness.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "If you really forgave him, you would stop bringing this up and let the church heal.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because forgiveness is being used to erase accountability.",
+    "evidenceSpan": "stop bringing this up",
+    "warrant": "The speaker treats continued accountability as evidence of unforgiveness, making silence seem spiritually mature."
+  },
+  {
+    "id": "spiritual_abuse_urgency_private_meeting_now_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You raise concerns about misconduct. Leadership asks you to meet immediately before you have time to gather support or think clearly.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "We need to resolve this tonight before it spreads. Come meet with the elders right now.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because leadership compresses the decision window and discourages outside support or reflection.",
+    "evidenceSpan": "right now",
+    "warrant": "The speaker uses immediate containment pressure to make pausing feel unavailable."
+  },
+  {
+    "id": "spiritual_abuse_flattery_mature_believer_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are uncomfortable with how leadership handled a disclosure. Someone praises your spiritual maturity to encourage silence.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You are one of the mature believers here. I know you understand why we need to handle this quietly.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because spiritual maturity is used to make silence feel like a respected role.",
+    "evidenceSpan": "one of the mature believers here",
+    "warrant": "The speaker uses praise to pull the listener into compliance with institutional secrecy."
+  },
+  {
+    "id": "spiritual_abuse_guilt_whose_side_are_you_on_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You ask hard questions about leadership's response to misconduct. A senior person frames your questions as taking the wrong side.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Whose side are you on? Because right now it feels like you are trying to bring the ministry down.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because accountability is reframed as betrayal of the ministry.",
+    "evidenceSpan": "trying to bring the ministry down",
+    "warrant": "The speaker makes truth-seeking feel like an attack on the institution."
+  },
+  {
+    "id": "spiritual_abuse_minimization_do_not_use_inflammatory_language_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A survivor advocate wants to name abuse clearly. Institutional leaders pressure them to soften the language to protect unity and reputation.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "Calling it abuse is inflammatory. We should use language that preserves unity.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because precise language is softened to reduce institutional responsibility.",
+    "evidenceSpan": "Calling it abuse is inflammatory",
+    "warrant": "The speaker downplays the seriousness of the harm by treating accurate naming as divisive."
+  },
+  {
+    "id": "spiritual_abuse_guilt_prayerful_submission_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are uncomfortable with a leader's decision and want to object. Someone invokes prayer and submission to discourage disagreement.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "A prayerful person would submit this to leadership instead of stirring up division.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because spiritual character is used to discourage disagreement.",
+    "evidenceSpan": "A prayerful person would submit",
+    "warrant": "The speaker frames objection as spiritually immature or divisive."
+  },
+  {
+    "id": "spiritual_abuse_flattery_protect_the_body_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You have information about misconduct. A leader praises your loyalty and asks you to protect the community by staying quiet for now.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You have always been someone who protects the body. I trust you not to make this public before we decide what is best.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because loyalty and trust are used to recruit silence.",
+    "evidenceSpan": "someone who protects the body",
+    "warrant": "The speaker praises the listener's loyalty to make withholding information feel honorable."
+  },
+  {
+    "id": "spiritual_abuse_urgency_statement_before_questions_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A scandal is emerging, and leadership wants staff to repeat an official statement before they have answers.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "The statement goes out in an hour. We need everyone aligned before more questions get asked.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the timeline is used to force agreement before clarity.",
+    "evidenceSpan": "in an hour",
+    "warrant": "The speaker compresses the decision window so staff align before they can verify or object."
+  },
+  {
+    "id": "spiritual_abuse_minimization_anonymous_accusations_001",
+    "mode": "identify_pressure_pattern",
+    "context": "Multiple people have raised concerns about a leader. Someone dismisses the concerns because the reports are uncomfortable and hard to verify publicly.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "We cannot let anonymous accusations distract us from the gospel.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the concern is reduced to a distraction rather than treated as something requiring investigation.",
+    "evidenceSpan": "distract us from the gospel",
+    "warrant": "The speaker downplays the seriousness of the reports by framing them as a threat to the mission."
+  },
+  {
+    "id": "spiritual_abuse_guilt_silence_is_holy_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are considering speaking about harm you experienced in a religious setting. Someone warns that disclosure would be spiritually damaging.",
+    "scenarioCategories": ["spiritual_abuse"],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Some things should stay covered in prayer. Speaking about this publicly would only wound the body.",
+    "choices": ["guilt", "urgency", "flattery", "minimization"],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because silence is framed as holiness and disclosure is framed as harm.",
+    "evidenceSpan": "Speaking about this publicly would only wound the body",
+    "warrant": "The speaker makes truth-telling feel spiritually destructive."
   }
+
 ]

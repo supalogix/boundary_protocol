@@ -45,6 +45,11 @@
       "id": "community_status",
       "label": "Community / Status",
       "description": "Pressure involving reputation, status, group belonging, moral image, public expectations, and social consequences."
+    },
+    {
+      "id": "spiritual_abuse",
+      "label": "Spiritual Abuse",
+      "description": "Boundary pressure in religious, ministry, church, spiritual, or faith-based communities where sacred language, obedience, forgiveness, loyalty, unity, calling, reputation, institutional protection, or fear of harming the mission can be used to silence concerns, pressure compliance, minimize harm, or make accountability feel spiritually wrong."
     }
   ]
 }
