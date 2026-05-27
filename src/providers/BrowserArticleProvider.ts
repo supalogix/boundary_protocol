@@ -1,7 +1,12 @@
 import type { Article } from "../domain/articleTypes";
 
+function withBasePath(path: string): string {
+  const base = import.meta.env.BASE_URL;
+  return `${base}${path.replace(/^\//, "")}`;
+}
+
 export async function loadArticles(): Promise<Article[]> {
-  const response = await fetch("/data/articles.json");
+  const response = await fetch(withBasePath("data/articles.json"));
 
   if (!response.ok) {
     throw new Error(`Failed to fetch articles: ${response.status}`);

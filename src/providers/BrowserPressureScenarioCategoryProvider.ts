@@ -3,10 +3,17 @@ import type {
   PressureScenarioCategoryCatalog,
 } from "../domain/pressureScenarioCategoryTypes";
 
+function withBasePath(path: string): string {
+  const base = import.meta.env.BASE_URL;
+  return `${base}${path.replace(/^\//, "")}`;
+}
+
 export async function loadPressureScenarioCategories(): Promise<
   PressureScenarioCategory[]
 > {
-  const response = await fetch("/data/pressureScenarioCategories.json");
+  const response = await fetch(
+    withBasePath("data/pressureScenarioCategories.json")
+  );
 
   if (!response.ok) {
     throw new Error(
