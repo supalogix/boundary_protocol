@@ -1,26 +1,19 @@
-import type { AppSection } from "../app/types";
+import { NavLink } from "react-router";
 
-type Props = {
-  activeSection: AppSection;
-  onChange: (section: AppSection) => void;
-};
+function navClass({ isActive }: { isActive: boolean }) {
+  return isActive ? "active" : "";
+}
 
-export function GlobalNav({ activeSection, onChange }: Props) {
+export function GlobalNav() {
   return (
     <nav className="globalNav">
-      <button
-        className={activeSection === "learn" ? "active" : ""}
-        onClick={() => onChange("learn")}
-      >
+      <NavLink to="/learn" className={navClass}>
         Learn
-      </button>
+      </NavLink>
 
-      <button
-        className={activeSection === "play" ? "active" : ""}
-        onClick={() => onChange("play")}
-      >
+      <NavLink to="/play" className={navClass}>
         Play
-      </button>
+      </NavLink>
     </nav>
   );
 }

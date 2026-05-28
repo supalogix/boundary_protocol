@@ -314,3 +314,43 @@ pre {
   color: #5f5548;
   line-height: 1.5;
 }
+
+.globalNav a {
+  border: 1px solid #c9c0b3;
+  background: #fffaf2;
+  color: #172033;
+  border-radius: 14px;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.globalNav a:hover {
+  border-color: #79664d;
+  background: #fff3df;
+}
+
+.globalNav a.active {
+  border-color: #172033;
+  background: #172033;
+  color: #fffaf2;
+}
+
+.articleListingCard {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #c9c0b3;
+  background: #fffaf2;
+  border-radius: 14px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.articleListingCard:hover {
+  border-color: #79664d;
+  background: #fff3df;
+}
