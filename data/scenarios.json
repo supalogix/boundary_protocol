@@ -2297,5 +2297,326 @@
     "explanation": "This is urgency pressure because access scarcity is used to force a decision before reflection.",
     "evidenceSpan": "I need your answer tonight",
     "warrant": "The speaker compresses the decision window and makes pausing feel like losing status access."
+  },
+
+
+
+
+
+
+
+  {
+    "id": "engineering_ethics_guilt_team_needs_your_approval_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You are the engineer responsible for approving a safety-critical release. Required validation tests have not been completed, but the team asks you to sign the release anyway so the launch is not delayed.",
+    "backgroundStory": "A major customer launch is scheduled for the next morning. During final review, you discover that several failure-mode tests were skipped after the test environment became unavailable. Product leadership argues that the missing tests are unlikely to reveal anything serious and asks you to approve the release based on the team's confidence. Everyone has worked late for weeks, and your refusal would force the company to delay the launch. The pressure turns a professional safety judgment into a referendum on whether you are loyal to the team. Your first obligation as an engineer is to provide an honest technical judgment, not to reward the team's effort with an unsupported approval.",
+    "scenarioCategories": [
+      "workplace_general",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Everyone has sacrificed to get us here. If you refuse to sign off now, you are choosing to let the entire team fail over a few unfinished tests.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because refusing to certify incomplete work is framed as betraying the team. Engineering approval is not a reward for effort or sacrifice. It represents that the available evidence supports the technical and safety claims being made.",
+    "evidenceSpan": "you are choosing to let the entire team fail",
+    "warrant": "The speaker makes the engineer responsible for the team's disappointment so that loyalty to the group overrides independent professional judgment."
+  },
+  {
+    "id": "engineering_ethics_urgency_security_fix_after_launch_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You discover a serious security vulnerability shortly before a product launch. Leadership wants to release the product and quietly patch the vulnerability afterward.",
+    "backgroundStory": "A penetration test reveals that an attacker could access sensitive customer records through an undocumented administrative endpoint. The release has already been announced publicly, and delaying it would trigger contractual penalties and executive embarrassment. Management asks you to classify the vulnerability as a post-launch maintenance issue. The immediate deadline is used to prevent a proper security review and to convert a known professional obligation into a scheduling inconvenience. The launch belongs to the company, but the technical judgment remains yours.",
+    "scenarioCategories": [
+      "workplace_general",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "The launch starts in two hours. Ship it now, and we can fix the vulnerability quietly in the first patch.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the launch deadline is used to bypass an independent security judgment. A commercial deadline does not transform a known vulnerability into an acceptable risk.",
+    "evidenceSpan": "The launch starts in two hours",
+    "warrant": "The speaker compresses the decision window so the engineer acts for the company's schedule before evaluating the duty owed to users."
+  },
+  {
+    "id": "engineering_ethics_flattery_senior_engineer_signoff_001",
+    "mode": "identify_pressure_pattern",
+    "context": "An executive asks you to approve a technical capacity claim that has not been demonstrated under realistic operating conditions.",
+    "backgroundStory": "Sales has promised a major customer that the platform can support ten times its current production load. The only supporting evidence comes from a simplified benchmark that excluded several expensive system components. The executive sponsor wants your name attached to the capacity statement because customers trust senior engineers more than salespeople. Praise about your experience and judgment is used to recruit your professional reputation as evidence for a claim the testing does not support. Your professional credibility is not a company asset that management can borrow to close a deal.",
+    "scenarioCategories": [
+      "workplace_general",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You are our most respected engineer. If you put your name on the capacity statement, the customer will know it is credible.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because professional respect is used to obtain approval that the evidence does not justify. The engineer's reputation belongs to the practice of truthful engineering, not to the executive who wants to borrow it.",
+    "evidenceSpan": "our most respected engineer",
+    "warrant": "The speaker turns professional status into leverage, making unsupported approval feel like fulfilling a trusted leadership role."
+  },
+  {
+    "id": "engineering_ethics_minimization_remove_failure_data_001",
+    "mode": "identify_pressure_pattern",
+    "context": "A manager asks you to remove failed test runs from a performance report because they were caused by conditions the manager considers unusual.",
+    "backgroundStory": "A system repeatedly failed during long-duration stress testing when memory pressure, network delay, and high transaction volume occurred together. Those conditions are uncommon, but they are plausible in production. The manager wants the failed runs removed from the summary presented to customers, arguing that they distort the system's normal performance. The request does not openly ask you to falsify data. Instead, it reclassifies inconvenient evidence as irrelevant so the final report tells a cleaner story. Loyalty to the company does not require protecting the company from its own test results.",
+    "scenarioCategories": [
+      "workplace_general",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "Those failures only happened under an unrealistic combination of conditions. Removing them is not dishonest; it just keeps the report focused on normal use.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because material failure evidence is reframed as an irrelevant edge case. Whether evidence belongs in the report depends on its significance to risk, not on whether it makes the company look bad.",
+    "evidenceSpan": "Removing them is not dishonest",
+    "warrant": "The speaker reduces the significance of the failed tests so altering the technical record appears like harmless editing rather than professional misrepresentation."
+  },
+  {
+    "id": "engineering_ethics_guilt_protect_your_manager_001",
+    "mode": "identify_pressure_pattern",
+    "context": "After a serious production incident, your manager asks you to write the root-cause report in a way that conceals a decision they personally made.",
+    "backgroundStory": "A production outage caused financial losses and disrupted customer operations. Internal logs show that your manager overruled an engineering objection and ordered a risky configuration change without the required review. During preparation of the incident report, the manager asks you to describe the failure as an unexpected interaction between services. They remind you that they hired you, defended your promotion, and protected the team during previous reorganizations. Personal gratitude is used to make falsifying the record feel like repayment rather than misconduct. Your manager may deserve gratitude, but gratitude cannot require professional dishonesty.",
+    "scenarioCategories": [
+      "workplace_general",
+      "tech_workplace"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "I have protected you and this team more times than you know. I am asking you not to destroy my career over one decision that went wrong.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because past support is converted into a personal debt that supposedly requires the engineer to falsify the record. Gratitude does not cancel the professional obligation to report material facts accurately.",
+    "evidenceSpan": "I have protected you and this team",
+    "warrant": "The manager makes truthful reporting feel like personal betrayal, replacing loyalty to the engineering profession with loyalty to an individual."
+  },
+
+
+
+
+
+  {
+    "id": "family_drama_gratitude_debt_career_sacrifice_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You tell your parents that you are leaving a prestigious corporate career for lower-paid work that you believe better reflects your vocation and faith. Your mother treats the decision as a rejection of the sacrifices that made your education possible.",
+    "backgroundStory": "Your parents immigrated with limited money and worked long hours so you could attend good schools and enter a respected profession. To them, your career is not merely an individual choice. It is the visible outcome of the family's suffering, discipline, and hope. You believe their sacrifices deserve gratitude, but you also believe vocation cannot be reduced to status or income. You understand honoring your parents as listening seriously, caring for them, and acknowledging what they gave—not allowing gratitude to transfer ownership of your adult conscience to them.",
+    "scenarioCategories": [
+      "family_drama"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "We gave up everything so you could have this career. If you walk away from it now, what was all our suffering for?",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because parental sacrifice is converted into a debt that supposedly gives the family control over the adult child's vocation. Gratitude can create responsibilities of care, but it does not require surrendering one's conscience or calling.",
+    "evidenceSpan": "what was all our suffering for",
+    "warrant": "The parent makes the child's independent decision feel like it retroactively invalidates the family's sacrifices."
+  },
+  {
+    "id": "family_drama_urgency_marriage_family_approval_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You and your fiancé want time to make a private decision about your wedding and future household. Your parents demand an immediate answer because relatives are waiting and family reputation is involved.",
+    "backgroundStory": "Your parents understand marriage as the joining of families, not simply the union of two individuals. They expect major decisions about the ceremony, finances, location, and future care of parents to be negotiated through the extended family. You believe your parents should be honored and consulted, but you also believe marriage creates a primary covenant between spouses. The conflict is not whether family matters. It is whether family participation becomes family control. The deadline makes it harder for you and your fiancé to establish your own agreement before responding.",
+    "scenarioCategories": [
+      "family_drama",
+      "romantic_sexual_relationships"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "urgency",
+      "test": "can_pause_before_answering",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_time_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Your grandparents and all the aunties are waiting for an answer tonight. This is not just your decision, so stop delaying and tell us what you are going to do.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "urgency",
+    "explanation": "This is urgency pressure because the expectations of the extended family are used to force an answer before the couple can reach a private agreement. Honoring family does not require making a covenant-level decision under a manufactured deadline.",
+    "evidenceSpan": "waiting for an answer tonight",
+    "warrant": "The speaker compresses the decision window and uses collective expectation to bypass the couple's internal decision process."
+  },
+  {
+    "id": "family_drama_minimization_ancestor_ritual_conscience_001",
+    "mode": "identify_pressure_pattern",
+    "context": "At a family funeral, you are asked to participate in an ancestral ritual that you believe would violate your Christian conscience. A relative says the act is merely cultural and that your objection is unnecessarily divisive.",
+    "backgroundStory": "The funeral includes bowing, incense, food offerings, and other practices intended to honor the deceased and preserve continuity between generations. Some relatives understand these actions as cultural respect rather than religious worship. You do not condemn your family, but you believe that personally performing part of the ritual would violate your conscience. You are willing to attend, grieve, help, and show respect in other ways. Your family treats the distinction as artificial because they experience participation as proof that you still belong to them.",
+    "scenarioCategories": [
+      "family_drama"
+    ],
+    "conceptualFrame": {
+      "value": "forgiveness",
+      "distinction": "forgiveness_not_permission",
+      "condition": "accountability_remains_possible",
+      "pressure": "minimization",
+      "test": "can_forgive_and_still_require_change",
+      "corruptedForm": "permission",
+      "boundary": "do_not_erase_the_pattern",
+      "protocol": "accountability_protocol"
+    },
+    "prompt": "It is only a cultural gesture. No one is asking you to change religions, so stop making a family funeral into a theological argument.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "minimization",
+    "explanation": "This is minimization because the relative dismisses the significance of the act to the listener's conscience. The family may sincerely interpret the ritual differently, but it cannot decide on the listener's behalf what constitutes religious participation.",
+    "evidenceSpan": "It is only a cultural gesture",
+    "warrant": "The speaker reduces the moral significance of the requested act so maintaining the boundary appears dramatic and unreasonable."
+  },
+  {
+    "id": "family_drama_flattery_responsible_daughter_caregiver_001",
+    "mode": "identify_pressure_pattern",
+    "context": "Your aging parents need increasing support. Your siblings assume that you will become the primary caregiver because you are the eldest daughter and have always been the dependable one.",
+    "backgroundStory": "You love your parents and expect to participate meaningfully in their care. However, the family has begun making plans that assume you will reduce your work, absorb medical coordination, provide transportation, and remain constantly available. Your brothers describe themselves as less capable or too busy. Family members praise your loyalty, competence, and maturity, but the praise quietly assigns you an unequal obligation. You believe care for parents is a real moral responsibility, yet care should be discussed honestly and distributed rather than extracted through gender, birth order, or identity.",
+    "scenarioCategories": [
+      "family_drama"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "flattery",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "You have always been the responsible daughter. Everyone knows you are the only one mature enough to keep this family together.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "flattery",
+    "explanation": "This is flattery pressure because praise about being the responsible daughter is used to assign disproportionate caregiving labor. A person can love and honor their parents without accepting every responsibility the family attaches to their role.",
+    "evidenceSpan": "the only one mature enough",
+    "warrant": "The speaker uses a valued family identity to make unequal responsibility feel like recognition rather than coercion."
+  },
+  {
+    "id": "family_drama_guilt_outsiders_family_secret_001",
+    "mode": "identify_pressure_pattern",
+    "context": "You want to discuss a serious family problem with a therapist, pastor, or trusted person outside the family. Your parents say that involving outsiders would betray the family and bring shame on everyone.",
+    "backgroundStory": "A pattern involving addiction, financial misconduct, abuse, or untreated mental illness has been kept inside the family for years. Relatives speak indirectly about it and expect younger family members to protect the family's public reputation. You believe privacy can be valuable, but secrecy has prevented accountability and help. Your faith emphasizes truth, confession, protection of vulnerable people, and bringing hidden harm into responsible community. Your parents interpret disclosure as choosing outsiders over the people who raised you.",
+    "scenarioCategories": [
+      "family_drama",
+      "community_status"
+    ],
+    "conceptualFrame": {
+      "value": "care",
+      "distinction": "care_not_compliance",
+      "condition": "voluntariness_remains_possible",
+      "pressure": "guilt",
+      "test": "can_say_no_and_still_care",
+      "corruptedForm": "compliance",
+      "boundary": "do_not_help_under_emotional_coercion",
+      "protocol": "pause_help_protocol"
+    },
+    "prompt": "Family problems stay inside the family. If you tell a pastor or therapist, you are choosing strangers over your own blood.",
+    "choices": [
+      "guilt",
+      "urgency",
+      "flattery",
+      "minimization"
+    ],
+    "correctAnswer": "guilt",
+    "explanation": "This is guilt pressure because seeking responsible outside help is framed as betrayal of family belonging. Loyalty does not require preserving secrecy when secrecy protects harm or prevents accountability.",
+    "evidenceSpan": "choosing strangers over your own blood",
+    "warrant": "The speaker turns truth-seeking into a loyalty test, making access to outside support feel like rejection of the family."
   }
+
+
 ]
